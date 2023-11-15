@@ -29,7 +29,7 @@ vector_matrix[:, 0] = matrix[:, 0]
 vector_matrix[:, 1] = matrix[:, 1]
 
 # Perform k-means clustering
-k = 5
+k = 7
 max_iterations = 10
 cluster_assignments, centroids = k_means_clustering(vector_matrix, k, max_iterations)
 
