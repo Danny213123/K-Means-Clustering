@@ -1,5 +1,7 @@
 ### K-Means Clustering
 
+Simple python program that takes data inputs, uses k-means algorithm to cluster and uses matplotlib to plot them.
+
 ```python
 # Cluster data points using k-means clustering
 def k_means_clustering(data, k, max_iterations):
